@@ -1,4 +1,4 @@
-# 🚀 Task Service Kubernetes (20/20)
+# 🚀 Task Service Kubernetes 
 
 Application **Flask CRUD Tasks** avec **PostgreSQL** déployée sur **Minikube** + **RBAC sécurité**.
 
@@ -41,7 +41,7 @@ curl -X POST $(minikube service task-service --url)/tasks \
   -d '{"title":"Test","description":"K8s","done":false}'
 ```
 
-## 🛡️ Sécurité RBAC (20/20)
+## 🛡️ Sécurité RBAC 
 ServiceAccount: task-service-sa ✓
 Role: task-role (pods/services get,list) ✓
 RoleBinding: task-rolebinding ✓
